@@ -1,0 +1,129 @@
+body {
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+img {
+    height: 12vh;
+    width: 12vw;
+    margin: 3vh 44vw 0 44vw;
+    border: solid black;
+    border-radius: 10px;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+#sign_in{
+    font-size: 3vh;
+    margin: 0 0 1vh 2.5vh;
+    align-self: flex-start;
+}
+
+.child1 #username {
+    margin-bottom: 2vh;
+}
+
+.child1 #password {
+    margin-bottom: 2.5vh;
+}
+
+input {
+    margin-top: 1vh;
+    width: 22vw;
+    height: 3vh;
+    border: 1px solid;
+}
+
+#f_pass {
+    margin-left: 12.4vw;
+    text-decoration: none;
+}
+
+button[type="submit"] {
+    background: #F7C548;
+    border: 1px solid;
+    margin-bottom: 1.5vh;
+    width: 22.35vw;
+    height: 3.35vh;
+}
+
+#help {
+    align-self: flex-start;
+    margin-left: 2.5vh;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 37.5vw 0 37.5vw;
+    height: 35vh;
+    width: 25vw;
+    border: rgb(201, 201, 201) 2px;
+    border-style: solid;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    margin: 0 38.5vw 0 38.5vw;
+    height: 5vh;
+    width: 23vw;    
+}
+
+#hline1 {
+    width: 9vw;
+    margin-left: 0;
+}
+
+#hline2 {
+    width: 9vw;
+    margin-right: 0;
+}
+
+.container2 > p {
+    margin: 0 0 0 0;
+}
+
+#bottom_b {
+    width: 23vw;
+    height: 3.35vh;
+    margin: 0 38.5vw 0 38.5vw;
+}
+
+footer {
+    margin-top: 10vh;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+footer > div > a {
+    margin: 1vh;
+    margin-top: 3vh;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
